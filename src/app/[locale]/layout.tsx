@@ -1,9 +1,9 @@
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
-import { resolveClub } from '@/lib/utils/tenant'
-import Header from '@/components/layout/Header'
-import Footer from '@/components/layout/Footer'
+import '../../styles/globals.css'
+
+const locales = ['fr', 'en', 'es']
 
 type Props = {
   children: React.ReactNode
@@ -11,16 +11,13 @@ type Props = {
 }
 
 export default async function LocaleLayout({ children, params: { locale } }: Props) {
-  const messages = await getMessages()
-  const clubId = await resolveClub()
+  if (!locales.includes(locale)) notFound()
 
-  if (!clubId) notFound()
+  const messages = await getMessages()
 
   return (
     <NextIntlClientProvider messages={messages} locale={locale}>
-      <Header clubId={clubId} locale={locale} />
-      <main>{children}</main>
-      <Footer clubId={clubId} locale={locale} />
+      {children}
     </NextIntlClientProvider>
   )
 }

@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "club": "El Club",
+    "activities": "Actividades",
+    "stages": "Cursos",
+    "competition": "Competición",
+    "prices": "Precios",
+    "news": "Noticias",
+    "contact": "Contacto",
+    "register": "Inscribirse",
+    "member_space": "Área de socios"
+  },
+  "home": {
+    "cta_stages": "Ver nuestros cursos",
+    "cta_discover": "Descubrir el club",
+    "latest_news": "Últimas noticias",
+    "our_activities": "Nuestras actividades",
+    "upcoming_stages": "Próximos cursos",
+    "follow_us": "Síguenos",
+    "partners": "Nuestros socios",
+    "find_us": "Cómo llegar"
+  },
+  "footer": {
+    "navigation": "Navegación",
+    "club": "El Club",
+    "stages": "Cursos",
+    "competition": "Competición",
+    "prices": "Precios",
+    "news": "Noticias",
+    "legal": "Legal",
+    "legal_notice": "Aviso legal",
+    "privacy": "Privacidad",
+    "sitemap": "Mapa del sitio",
+    "contact": "Contacto"
+  }
+}

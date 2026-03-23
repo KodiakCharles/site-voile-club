@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "Home",
+    "club": "The Club",
+    "activities": "Activities",
+    "stages": "Courses",
+    "competition": "Racing",
+    "prices": "Prices",
+    "news": "News",
+    "contact": "Contact",
+    "register": "Register",
+    "member_space": "Members"
+  },
+  "home": {
+    "cta_stages": "View our courses",
+    "cta_discover": "Discover the club",
+    "latest_news": "Latest news",
+    "our_activities": "Our activities",
+    "upcoming_stages": "Upcoming courses",
+    "follow_us": "Follow us",
+    "partners": "Our partners",
+    "find_us": "Find us"
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "club": "The Club",
+    "stages": "Courses",
+    "competition": "Racing",
+    "prices": "Prices",
+    "news": "News",
+    "legal": "Legal",
+    "legal_notice": "Legal notice",
+    "privacy": "Privacy policy",
+    "sitemap": "Sitemap",
+    "contact": "Contact"
+  }
+}

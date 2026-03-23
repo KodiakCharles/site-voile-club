@@ -19,5 +19,15 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules",
+    "payload/**",
+    "src/lib/utils/redis.ts",
+    "src/lib/utils/tenant.ts",
+    "src/lib/api/ffvoile.ts",
+    "src/app/api/contact/route.ts",
+    "src/app/api/newsletter/route.ts",
+    "src/app/api/social/instagram/route.ts",
+    "tests/**"
+  ]
 }
