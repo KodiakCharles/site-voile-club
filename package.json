@@ -11,7 +11,12 @@
     "payload": "payload",
     "db:migrate": "payload migrate",
     "db:seed": "tsx scripts/seed.ts",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "test": "vitest run",
+    "test:unit": "vitest run tests/unit",
+    "test:security": "vitest run tests/security",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui"
   },
   "dependencies": {
     "next": "^14.2.0",
@@ -45,6 +50,9 @@
     "eslint": "^8.57.0",
     "eslint-config-next": "^14.2.0",
     "tsx": "^4.15.0",
-    "dotenv": "^16.4.0"
+    "dotenv": "^16.4.0",
+    "vitest": "^1.6.0",
+    "@playwright/test": "^1.45.0",
+    "@vitest/coverage-v8": "^1.6.0"
   }
 }
